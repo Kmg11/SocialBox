@@ -1,7 +1,43 @@
-:root{--whiteColor:#fff;--blackColor:#000;--bodyBgColor:#000;--boxBgColor:#242424;--sBgColor:#444;--bgBlueColor:#2f9bc1;--bgGreenColor:#77af12;--bgRedColor:#c12f6c;--cBlackColor:#f2f2f2;--textColor:#999;--sidebarHeaderLine:#777}
-.main-content .aaps .aaps-container .pager span,input{color:#fff}
-input:focus{background-color:#555!important}
-.sidebar .mag .items-container .item .info span{background-color:#444}
-.sidebar .sign-in a,.sidebar .sign-in label{color:#999}
-.sidebar .rat .rat-container p{color:var(--textColor)}
-.sidebar .rat .rat-container p span{color:#777}
+:root {
+	/* Colors */
+	--whiteColor: #fff; /* Native White Color */
+	--blackColor: #000; /* Native Black Color */
+
+	--bodyBgColor: #000; /* For Body Only */
+	--boxBgColor: #242424; /* For Main Boxes */
+	--sBgColor: #444; /* For Headers & Inputs */
+	--bgBlueColor: #2f9bc1; /* Blue For Boxes */
+	--bgGreenColor: #77af12; /* Green For Boxes */
+	--bgRedColor: #c12f6c; /* Red For Boxes */
+
+	--cBlackColor: #f2f2f2; /* A Lot Of Uses */
+	--textColor: #999; /* For Text */
+	--sidebarHeaderLine: #777;
+}
+
+input,
+.main-content .aaps .aaps-container .pager span {
+	color: #fff;
+}
+
+/* .sidebar .search form input[type="search"]:focus, */
+input:focus {
+	background-color: #555 !important;
+}
+
+.sidebar .mag .items-container .item .info span {
+	background-color: #444;
+}
+
+.sidebar .sign-in label,
+.sidebar .sign-in a {
+	color: #999;
+}
+
+.sidebar .rat .rat-container p {
+	color: var(--textColor);
+}
+
+.sidebar .rat .rat-container p span {
+	color: #777;
+}
